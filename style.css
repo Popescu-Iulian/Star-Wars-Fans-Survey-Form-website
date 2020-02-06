@@ -1,0 +1,140 @@
+/* === GENERAL === */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: url('images/jedi sith battle.jpg') no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+header,
+form {
+	width: 30%;
+	margin: 0 auto;
+}
+
+/* === HEADER === */
+header {
+	text-align: center;
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+	color: #800000;
+}
+
+header h1 {
+	font-size: 3.3rem;
+}
+
+header p {
+	font-size: 1.5rem;
+}
+
+/* === FORM === */
+form {
+	background-color: rgba(0, 77, 102, 0.9);
+	color: silver;
+	padding: 1rem;
+	border-radius: 10px;
+	margin-bottom: 1rem;
+	font-size: 1.3rem;
+}
+
+form section {
+	padding-bottom: 0.7rem;
+}
+
+form section,
+form .long {
+	width: 87%;
+	margin: 1.3rem auto;
+}
+
+form input,
+form select,
+form textarea,
+form button {
+	border: 2px solid lightcoral;
+	border-radius: 5px;
+	padding: 0.4rem 0.8rem;
+	font-size: 0.8rem;
+}
+
+form .long input,
+form select,
+form textarea,
+form button {
+	width: 100%;
+	height: 3rem;
+	font-size: 1.2rem;
+}
+
+form textarea {
+	resize: vertical;
+	min-height: 10rem;
+	max-height: 20rem;
+}
+
+form button {
+	background-color: lightblue;
+	color: darkblue;
+	padding: 0.7rem;
+	font-size: 1.3rem;
+}
+
+form button:hover {
+	background-color: lightcyan;
+}
+
+/* === MEDIA QUERIES === */
+@media (max-width: 576px) {
+	header,
+	form {
+		width: 90%;
+	}
+
+	header h1 {
+		font-size: 2rem;
+	}
+
+	header p {
+		font-size: 1rem;
+	}
+
+	form {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 768px) {
+	header,
+	form {
+		width: 80%;
+	}
+}
+
+@media (max-width: 1024px) {
+	header,
+	form {
+		max-width: 70%;
+		min-width: 50%;
+	}
+}
+
+@media (max-width: 1524px) {
+	header,
+	form {
+		width: 45%;
+	}
+}
+
+@media (min-width: 1525px) {
+	header,
+	form {
+		min-width: 40%;
+	}
+}
